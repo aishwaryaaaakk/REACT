@@ -1,0 +1,49 @@
+<!-- create a component called Button
+add an onClick listener, when a user clicks on the button it should print the text
+<Button name="Masai" /> -> on clicking the button, it should have an alert box which says You clicked Masai! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+    <style>
+        #root{
+            width: 400px;
+            background-color: blueviolet;
+            height: 300px;
+            margin: auto;
+            border-radius: 22px;
+        }
+        .btn{
+            background-color: tomato;
+            padding: 1rem;
+            margin-left: 35%;
+            margin-top: 30%;
+            font-size: 20px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</body>
+</html>
+<script type="text/babel">
+    function Button() {
+        const clicked = () => {
+            alert("You clicked Masai!");
+        }
+
+        return (
+            <button className="btn" onClick={clicked}>Masai</button>
+        );
+    }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Button />);
+</script>
