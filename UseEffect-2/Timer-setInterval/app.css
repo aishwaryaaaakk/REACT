@@ -1,0 +1,17 @@
+body{
+    background-color: lightsteelblue;
+}
+.timer{
+    width: fit-content;
+    padding: 150px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 120px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
