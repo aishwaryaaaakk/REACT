@@ -1,0 +1,19 @@
+div{
+  width: fit-content;
+  margin: auto;
+  margin-top: 70px;
+  padding: 100px;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 50px;
+  box-shadow: 0px 0px 7px black;
+  font-family: 'Courier New', Courier, monospace;
+}
+button{
+  font-size: 15px;
+  padding: 10px;
+  /* background-color: darkblue;
+  color: honeydew; */
+  border: none;
+  border-radius: 10px;
+}
